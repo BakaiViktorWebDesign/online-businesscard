@@ -13,8 +13,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120vh;
-  background-color: lightskyblue;
+  height: 100vh;
+  background: linear-gradient(red, white, green);
 }
 
 p {
@@ -28,13 +28,13 @@ span {
 }
 
 .profile-card { 
-  background-color: lightcoral;
+  background-color: rgba(0,0,0,.2);
   width: 70%;
   max-width: calc(100vw - 10vw);
   border-radius: 2rem;
   border: .3rem solid rgba(255,255,255,.7);
   box-shadow: 0 0 2rem 2rem rgba(0,0,0,.4);
-  margin-top: 6rem;
+  margin-top: 10rem;
   margin-bottom: 1rem;
 }
 
