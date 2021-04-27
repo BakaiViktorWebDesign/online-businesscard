@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+}
+  
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(red, white, green);
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(255,255,255,.8);
+}
+
+
+.images img {
+    display: block;
+    width: 60%;
+    margin: 8rem auto;
+    border-radius: 4rem;
+    border: .4rem solid rgba(0,0,0,.8);
+    box-shadow: 0 0 4rem 3rem rgba(0,0,0,.6);
+}
+
+#third-image {
+    width: 40%;
+}
+
+img:hover {
+    cursor: pointer;
+    filter: grayscale(100%);
+    transform: scale(.9);
+    transition: all 1s ease-in-out;
+    transition-delay: .2s;
+}
+
