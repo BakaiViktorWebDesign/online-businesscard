@@ -50,3 +50,15 @@ img:hover {
     transition-delay: .2s;
 }
 
+@media all and (orientation: portrait) {
+  
+    body {
+      background: none;
+      background-color: lightgoldenrodyellow;
+    }
+
+    h1, h2 {
+        color: rgba(0,0,0,.6);
+    }
+
+}

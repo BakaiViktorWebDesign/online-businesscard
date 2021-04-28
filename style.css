@@ -130,3 +130,33 @@ li a {
 img {
   margin: 1rem;
 }
+
+@media all and (orientation: portrait) {
+  
+  body {
+    background: none;
+    background-color: lightgoldenrodyellow;
+  }
+
+  .flags {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    padding: .8rem;
+    border-radius: 1rem;
+  }
+
+  .profile-card { 
+    position: absolute;
+    top: 100rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,.2);
+    width: 70%;
+    max-width: calc(100vw - 10vw);
+    border-radius: 2rem;
+    border: .3rem solid rgba(255,255,255,.7);
+    box-shadow: 0 0 2rem 2rem rgba(0,0,0,.4);
+  }
+  
+}
